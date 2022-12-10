@@ -6,18 +6,25 @@ using UnityEditor.UIElements;
 
 public class NavigationTest : MonoBehaviour
 {
+    Vector3 lastDestPos;
     public Transform dest;
     public RootMotionAgent iNavAgent;
     // Start is called before the first frame update
     void Start()
     {
+        lastDestPos = dest.position;
         iNavAgent = GetComponent<RootMotionAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Vector3.Distance(lastDestPos, dest.position) > Mathf.Epsilon)
+        {
+            TestNavigation();
+        }
+
+        lastDestPos = dest.position;
     }
 
     public void TestNavigation()

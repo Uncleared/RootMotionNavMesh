@@ -145,10 +145,16 @@ public class RootMotionAgent : MonoBehaviour
             }
         }
 
+        //moveDir = Vector2.Lerp(GetMoveVector(), moveDir, Time.deltaTime * 10f);
         //_animator.SetFloat("speed", speed);
         _animator.SetFloat("moveX", moveDir.x);
         _animator.SetFloat("moveY", moveDir.z);
 
+    }
+
+    Vector2 GetMoveVector()
+    {
+        return new Vector2(_animator.GetFloat("moveX"), _animator.GetFloat("moveY"));
     }
 
     //// Update is called once per frame
