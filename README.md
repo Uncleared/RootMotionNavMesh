@@ -12,6 +12,6 @@ https://user-images.githubusercontent.com/16218331/206888383-0f849e11-8ddd-4662-
 
 
 
-# With Root Motion Nav Mesh
+# With Root Motion
 https://user-images.githubusercontent.com/16218331/206888333-a2276afe-11c0-4b2a-b0de-f5404046c94f.mp4
 
