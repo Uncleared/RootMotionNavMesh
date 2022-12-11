@@ -1,7 +1,7 @@
 # System for Root Motion Movement in Unity
 
 The classic problem of "how do you sync the walk cycle speed with the actual translation speed of the character so they don't moonwalk" is a common issue in Unity game development. The solutions to this kind of problem is not very well documented.
-Often it requires a lot of manual tweaking and messy code, and usually still ends up with the characters looking like they're moonwalking, i.e sliding on the floor.
+Often it requires a lot of manual tweaking and messy code, and usually still ends up with the characters looking like they're "moonwalking", i.e sliding on the floor.
 
 I've designed a system here that allows you to make use of root motion to minimize moonwalking in any movement scenario. The particular scenario I've used is for Nav Mesh Agents, since that's when moonwalking tends to be the worst.
 
