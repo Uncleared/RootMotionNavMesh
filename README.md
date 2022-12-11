@@ -12,3 +12,4 @@ Making use of blend tree's and controlling the character root motion through a s
 ## With Root Motion
 https://user-images.githubusercontent.com/16218331/206888333-a2276afe-11c0-4b2a-b0de-f5404046c94f.mp4
 
+As you can see in the video above, the characters movement speed is actually in sync with the steps in the walk cycle now.
