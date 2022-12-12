@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NavigationTest.cs" />
     <Compile Include="Assets\Scripts\HelperClass.cs" />
     <Compile Include="Assets\Scripts\INavAgentInterface.cs" />
     <Compile Include="Assets\Scripts\NavAgentInterface.cs" />
+    <Compile Include="Assets\Scripts\NavigationTest.cs" />
     <Compile Include="Assets\Scripts\RootMotionAgent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -654,10 +654,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{BCF15F08-F54A-073B-CF92-79E6B22A0DEF}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{C651A111-D5E9-898B-F9C8-4B12D8B2C579}</Project>
       <Name>Unity.Timeline.Editor</Name>
